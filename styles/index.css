@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body {
+    /* background-color: aquamarine; */
+    /* border: 1px solid red; */
+    margin: 0px;
+}
+
+header {
+    /* border: 1px solid rgb(54, 153, 51); */
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+    margin: 0px;
+    padding: 50px 240px 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.navigation-items {
+    display: flex;
+    gap: 50px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* .............Banner..................... */
+section {
+    margin-top: 100px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.banner-description {
+    /* border: 1px solid rgb(54, 153, 51); */
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-description h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+
+}
+
+.banner-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #727272;
+}
+
+.banner-description button {
+    width: 200px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 7px;
+    border: none;
+    padding: 21px 25px;
+    margin-bottom: 50px;
+    
+}
+
+section img {
+    width: 100%;
+}
+/* .............Quick list section ...............*/
+main{
+    margin: 0px 240px;
+}
+.quick-list-container{
+    display: flex;
+    gap:85px;align-items: center;
+}
+.quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.quick-list-description{
+    width: 550px;
+    text-align: left;
+}
+.quick-list-title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+#dark{
+    color: #727272;
+}
+#black{
+color: #131313;
+font-weight: 700;
+}
+#orange{
+color: #FF900E;
+font-weight: 700;
+}
+.quick-list-description p{
+    font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.quick-list-description button{
+    width: 180px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 7px;
+    border: none;
+    padding: auto;
+    margin-bottom: 50px;
+}
+
+/* .............love feature section............. */
+.love-feature-section{
+    margin-top: 180px;
+}
+
+.love-feature-container{
+    display: flex;
+    justify-content: space-between;
+    gap:146px;
+    text-align: left;
+}
+.love-feature-sub-container{
+    width: 625px;
+}
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.love-feature-sub-container h3{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+border-left:5px solid #FF900E;
+padding-left: 21px;
+margin-bottom: 24px;
+}
+.love-feature-sub-container p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 30px;
+}
+.feature{
+    padding: 30px;
+    border-radius: 5px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.feature h4{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+margin-bottom: 10px;
+}
+
+/* btn and img */
+.feature-img-btn img{
+    margin-bottom: -125px;
+}
+.feature-img-btn button{
+    width: 330px;
+    height: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 7px;
+    border: none;
+    padding: auto;
+    margin-left: -100px;
+    margin-bottom: 50px;
+}
