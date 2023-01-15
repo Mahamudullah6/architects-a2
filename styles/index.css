@@ -178,7 +178,26 @@ main {
     padding: auto;
     margin-bottom: 50px;
 }
+/* responsive banner*/
+@media screen and (max-width:576px) {
+    main {
+        margin: 0px 20px;
+    }
+    .quick-list-container {
+        flex-direction: column;
+        /* display: flex;
+        gap: 85px;
+        align-items: center; */
+    }
+    
+    .quick-list-images {
 
+        grid-template-columns: repeat(1, 1fr);
+        /* display: grid;
+        
+        gap: 25px; */
+    }
+}
 /* .............love feature section............. */
 .love-feature-section {
     margin-top: 180px;
@@ -349,6 +368,26 @@ margin-bottom: 50px;
 .sponsors-images img{
     width: 165px;
     height: 50px;
+}
+/* responsive our sponsor */
+@media screen and (max-width:576px) {
+    main {
+        margin: 0px 20px;
+    }
+    .quick-list-container {
+        flex-direction: column;
+        /* display: flex;
+        gap: 85px;
+        align-items: center; */
+    }
+    
+    .quick-list-images {
+
+        grid-template-columns: repeat(1, 1fr);
+        /* display: grid;
+        
+        gap: 25px; */
+    }
 }
 /* .......................next goal section.............. */
 .horizontal-line {
