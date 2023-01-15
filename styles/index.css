@@ -41,9 +41,11 @@ nav {
 @media screen and (max-width:576px) {
     nav {
         flex-direction: column;
+        gap: 25px;
     }
     .navigation-items {
         flex-direction: column;
+        gap: 15px;
     }
     header {
         padding: 50px 20px 45px;
@@ -111,6 +113,9 @@ section img {
     }
     .banner-description {
         width: 100%;
+    }
+    section {
+        margin-top: 50px;
     }
 }
 
@@ -197,6 +202,9 @@ main {
         
         gap: 25px; */
     }
+    .quick-list-description {
+        width: 100%;
+    }
 }
 /* .............love feature section............. */
 .love-feature-section {
@@ -278,7 +286,33 @@ main {
     font-weight: 500;
     font-size: 25px;
 }
-
+/* responsive loving feature */
+@media screen and (max-width:576px) {
+    .love-feature-container{
+        flex-direction: column;
+    }
+    .love-feature-sub-container {
+        width: 100%;
+    }
+    .feature-img-btn button {
+        width: 100%;
+        height: 150px;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #FF900E;
+        border-radius: 7px;
+        border: none;
+        padding: auto;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-img-btn img {
+        margin-bottom: 10px;
+    }
+}
 /* ...................some fact section ..........................*/
 .fact img {
     width: 45px;
@@ -339,10 +373,13 @@ font-size: 20px;
 color: #727272;
 }
 
-/* some-facts-section
-fact-container
-fact-sub-container */
-
+/* responsive our sponsor */
+@media screen and (max-width:576px) {
+    .fact-sub-container {
+        flex-direction: column;
+    
+}
+}
 /* ........................our sponsors.................. */
 .our-sponsors-section{
     text-align: center;
@@ -371,22 +408,8 @@ margin-bottom: 50px;
 }
 /* responsive our sponsor */
 @media screen and (max-width:576px) {
-    main {
-        margin: 0px 20px;
-    }
-    .quick-list-container {
+    .sponsors-images{
         flex-direction: column;
-        /* display: flex;
-        gap: 85px;
-        align-items: center; */
-    }
-    
-    .quick-list-images {
-
-        grid-template-columns: repeat(1, 1fr);
-        /* display: grid;
-        
-        gap: 25px; */
     }
 }
 /* .......................next goal section.............. */
@@ -427,15 +450,24 @@ margin-bottom: 50px;
     background: #FFF4E7;
     border-radius: 8px;
     text-align: center;
-    height: 100px;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .footer-items p{
     font-weight: 400;
 font-size: 20px;
 line-height: 23px;
-position: relative;
-top: 40%;
+padding: 40px 10px;
+/* position: relative;
+top: 40% */
+}
 
-
+/* responsive footer */
+@media screen and (max-width:576px) {
+    .footer{
+        padding: 0px 20px 254px;
+    }
 }
