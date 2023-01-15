@@ -81,54 +81,65 @@ section {
     border: none;
     padding: 21px 25px;
     margin-bottom: 50px;
-    
+
 }
 
 section img {
     width: 100%;
 }
+
 /* .............Quick list section ...............*/
-main{
+main {
     margin: 0px 240px;
 }
-.quick-list-container{
+
+.quick-list-container {
     display: flex;
-    gap:85px;align-items: center;
+    gap: 85px;
+    align-items: center;
 }
-.quick-list-images{
+
+.quick-list-images {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
-.quick-list-description{
+
+.quick-list-description {
     width: 550px;
     text-align: left;
 }
-.quick-list-title{
+
+.quick-list-title {
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
 }
-#dark{
+
+#dark {
     color: #727272;
 }
-#black{
-color: #131313;
-font-weight: 700;
+
+#black {
+    color: #131313;
+    font-weight: 700;
 }
-#orange{
-color: #FF900E;
-font-weight: 700;
+
+#orange {
+    color: #FF900E;
+    font-weight: 700;
 }
-.quick-list-description p{
+
+.quick-list-description p {
     font-weight: 300;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
-margin-top: 30px;
-margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.quick-list-description button{
+
+.quick-list-description button {
     width: 180px;
     height: 60px;
     font-weight: 600;
@@ -143,66 +154,71 @@ margin-bottom: 30px;
 }
 
 /* .............love feature section............. */
-.love-feature-section{
+.love-feature-section {
     margin-top: 180px;
 }
 
-.love-feature-container{
+.love-feature-container {
     display: flex;
     justify-content: space-between;
-    gap:146px;
+    gap: 146px;
     text-align: left;
 }
-.love-feature-sub-container{
+
+.love-feature-sub-container {
     width: 625px;
 }
 
-.feature-container{
+.feature-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 
-.love-feature-sub-container h3{
+.love-feature-sub-container h3 {
     font-weight: 700;
-font-size: 45px;
-line-height: 53px;
-color: #131313;
-border-left:5px solid #FF900E;
-padding-left: 21px;
-margin-bottom: 24px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
 }
-.love-feature-sub-container p{
+
+.love-feature-sub-container p {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
-margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
 }
-.feature{
+
+.feature {
     padding: 30px;
     border-radius: 5px;
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.feature h4{
+.feature h4 {
     font-weight: 600;
-font-size: 20px;
-line-height: 23px;
-margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
 }
 
 /* btn and img */
-.feature-img-btn img{
+.feature-img-btn img {
     margin-bottom: -125px;
 }
-.feature-img-btn button{
+
+.feature-img-btn button {
     width: 330px;
     height: 200px;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 40px;
     text-align: center;
     color: #FFFFFF;
     background-color: #FF900E;
@@ -212,3 +228,69 @@ margin-bottom: 10px;
     margin-left: -100px;
     margin-bottom: 50px;
 }
+
+.feature-img-btn button span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ...................some fact section ..........................*/
+.fact img {
+    width: 45px;
+    height: 45px;
+}
+
+.fact-container {
+    text-align: left;
+}
+
+.fact-container h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.fact-container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+.fact-sub-container {
+    margin: 100px 50px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fact {
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    height: 202px;
+    width: 242px;
+    text-align: center;
+    padding-top: 45px;
+    background-color: #FFFFFF;
+
+}
+.fact:hover{
+    transition: background-color 2s ease-out,border 0s linear;
+    background-color: rgb(240, 222, 145);
+    border: 5px solid #FF900E;
+    transform: translate(10px, -10px);
+}
+.fact h3{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+margin-top: 9px;
+margin-bottom: 5px;
+}
+.fact p{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+
+/* some-facts-section
+fact-container
+fact-sub-container */
