@@ -18,7 +18,7 @@ header {
     margin: 0px;
     padding: 50px 240px 45px;
 }
-
+/* ..................navigation bar...................... */
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,6 +49,15 @@ nav {
     }
     header {
         padding: 50px 20px 45px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:1358px){
+    nav {
+        flex-direction: column;
+        gap: 25px;
+    }
+    header {
+        padding: 50px 60px 45px;
     }
 }
 /* .............Banner..................... */
@@ -118,7 +127,11 @@ section img {
         margin-top: 50px;
     }
 }
-
+@media screen and (min-width:577px) and (max-width:1358px){
+    .banner-description {
+        width: 100%;
+    }
+}
 /* .............Quick list section ...............*/
 main {
     margin: 0px 240px;
@@ -204,6 +217,16 @@ main {
     }
     .quick-list-description {
         width: 100%;
+    }
+}
+/* responsive other device */
+@media screen and (min-width:577px) and (max-width:1358px){
+    .quick-list-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main {
+        margin: 0px 60px;
     }
 }
 /* .............love feature section............. */
@@ -313,6 +336,72 @@ main {
         display: block;
     }
 }
+/* responsive other device */
+@media screen and (min-width:577px) and (max-width:1358px){
+    .love-feature-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature-img-btn button {
+        width: 60%;
+        height: 150px;
+        font-weight: 700;
+        font-size: 55px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-img-btn img {
+        margin-bottom: 180px;
+        width: 100%;
+    }
+    .feature-img-btn button br{
+        display: block;
+    }
+    .feature-img-btn img {
+        margin-bottom: 180px;
+        width: 60%;
+    }
+}
+@media screen and (min-width:1359px) and (max-width:1562px){
+    .love-feature-container{
+        flex-direction: column;
+        
+        gap: 50px;
+    }
+    .feature-img-btn button {
+        width: 60%;
+        height: 150px;
+        font-weight: 700;
+        font-size: 55px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-img-btn img {
+        margin-bottom: 180px;
+        width: 60%;
+    }
+    .feature-img-btn button br{
+        display: block;
+    }
+}
+
+/* @media screen and (min-width:1563) and (max-width:1690px){
+    .feature-img-btn button {
+        width: 100%;
+        height: 150px;
+        font-weight: 700;
+        font-size: 55px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        
+    }
+    .feature-img-btn img {
+        margin-bottom: 180px;
+    }
+    .feature-img-btn button br{
+        display: block;
+    }
+} */
 /* ...................some fact section ..........................*/
 .fact img {
     width: 45px;
@@ -397,6 +486,13 @@ color: #727272;
     margin-top: 15px;
 }
 }
+/* responsive for other device */
+@media screen and (min-width:1359px) and (max-width:1562px){
+    .fact-sub-container {
+        flex-wrap: wrap;
+    
+}
+}
 /* ........................our sponsors.................. */
 .our-sponsors-section{
     text-align: center;
@@ -432,6 +528,12 @@ margin-bottom: 50px;
     }
     br{
         display: none;
+    }
+}
+@media screen and (min-width:577px) and (max-width:1358px){
+    .sponsors-images {
+        flex-wrap: wrap;
+    
     }
 }
 /* .......................next goal section.............. */
@@ -497,5 +599,10 @@ top: 40% */
 @media screen and (max-width:576px) {
     .footer{
         padding: 0px 20px 100px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:1358px){
+    .footer{
+        padding: 0px 60px 100px;
     }
 }
