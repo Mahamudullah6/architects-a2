@@ -324,19 +324,34 @@ margin-bottom: 50px;
     width: 165px;
     height: 50px;
 }
-/* next goal section */
+/* .......................next goal section.............. */
 .horizontal-line {
     width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #ff0000 10%,#000000 20%, #000000 80%, #ff0000 90%);
+    height: 3px;
+    background: linear-gradient(to right, #FF900E 10%,#a3eef8 20%, #a3eef8 80%, #FF900E 90%);
+  }
+  .our-goals{
+    margin-bottom: 130px;
   }
   .goals{
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top: 24px;
+margin-bottom: 50px;
+    
   }
-  .goals li::before{
+  .our-goals h3{
+    margin-top: 25px;
+      font-weight: 700;
+    font-size: 45px;
+  }
+  .goals ul li{
+    margin-bottom: 10px;
     
   }
 /* .................footer................... */
