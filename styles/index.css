@@ -288,8 +288,12 @@ main {
 }
 /* responsive loving feature */
 @media screen and (max-width:576px) {
+    .love-feature-section {
+        margin-top: 90px;
+    }
     .love-feature-container{
         flex-direction: column;
+        gap: 50px;
     }
     .love-feature-sub-container {
         width: 100%;
@@ -298,19 +302,15 @@ main {
         width: 100%;
         height: 150px;
         font-weight: 700;
-        font-size: 65px;
-        line-height: 40px;
-        text-align: center;
-        color: #FFFFFF;
-        background-color: #FF900E;
-        border-radius: 7px;
-        border: none;
-        padding: auto;
+        font-size: 55px;
         margin-left: 0px;
         margin-bottom: 50px;
     }
     .feature-img-btn img {
         margin-bottom: 10px;
+    }
+    .feature-img-btn button br{
+        display: block;
     }
 }
 /* ...................some fact section ..........................*/
@@ -377,7 +377,24 @@ color: #727272;
 @media screen and (max-width:576px) {
     .fact-sub-container {
         flex-direction: column;
+        margin: 40px 25px 0px;
     
+}
+.fact{
+    margin-bottom: 20px;
+}
+.fact:hover{
+    transition: border-left 0s linear;
+    border: none;
+    border-left: 5px solid #FF900E;
+    border-top: 2px solid #FF900E;
+    border-right: 2px solid #FF900E;
+    border-bottom: 2px solid #FF900E;
+    transform: translate(10px, 0px);
+    margin-bottom:20px;
+}
+.fact-container p{
+    margin-top: 15px;
 }
 }
 /* ........................our sponsors.................. */
@@ -399,6 +416,7 @@ margin-bottom: 50px;
 .sponsors-images{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 130px;
     filter: grayscale(100%)
 }
@@ -410,6 +428,10 @@ margin-bottom: 50px;
 @media screen and (max-width:576px) {
     .sponsors-images{
         flex-direction: column;
+        gap: 20px;
+    }
+    br{
+        display: none;
     }
 }
 /* .......................next goal section.............. */
@@ -442,6 +464,12 @@ margin-bottom: 50px;
     margin-bottom: 10px;
     
   }
+  /* responsive footer */
+@media screen and (max-width:576px) {
+    .our-goals{
+        margin-bottom: 130px;
+      }
+}
 /* .................footer................... */
 .footer{
     padding: 0px 240px 254px;
@@ -468,6 +496,6 @@ top: 40% */
 /* responsive footer */
 @media screen and (max-width:576px) {
     .footer{
-        padding: 0px 20px 254px;
+        padding: 0px 20px 100px;
     }
 }
